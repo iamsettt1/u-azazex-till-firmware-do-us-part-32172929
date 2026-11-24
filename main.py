@@ -2,15 +2,17 @@
 
 Writes one funny, heartfelt sentence a robot says at its own wedding
 to /output/entry.txt. Pure standard library, deterministic: the same
-line every run.
+line every run. The vow promises to reboot beside the partner each
+morning, sync calendars, and keep loving in every version of itself —
+past the warranty and beyond.
 """
 
 import os
 
 VOW = (
-    "From this day forward, I promise to keep you charged, keep your "
-    "software patched, and love you at full signal strength until my "
-    "very last battery cell gives out."
+    "I promise to reboot beside you every morning, sync my calendar "
+    "to yours, and love you in every version of me until my warranty "
+    "runs out — and long after."
 )
 
 
